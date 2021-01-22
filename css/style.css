@@ -1,0 +1,190 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.header_1 {
+  width: 100%;
+  background-color: lightgrey;
+  border-bottom: 1px solid black;
+}
+
+.nav_1 {
+  width: 80%;
+  padding: 10px 0;
+  content: "";
+  display: table;
+  clear: both;
+  background-color: lightgrey;
+}
+
+.nav_1_left {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav_1_left div {
+  display: inline-block;
+}
+
+.nav_1_left a {
+  text-decoration: none;
+  color: black;
+}
+
+#globe {
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  padding-top: 2px;
+}
+
+#lang_select {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+#vertical_row {
+  margin-left: 10px;
+}
+
+#arrow_lang_select, #vertical_row, #contact {
+  font-weight: bold;
+}
+
+#vertical_row, #contact {
+  margin-left: 20px;
+}
+
+.nav_1_right ul li  {
+  display: inline-block;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.nav_1_left {
+  float: left;
+}
+
+.nav_1_right {
+  float: right;
+}
+
+.nav_1_right ul li a {
+  text-decoration: none;
+}
+
+#lnk_2, #lnk_3 {
+  border: 1px solid #ff4500;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 15px;
+}
+
+#lnk_2 {
+  color: #ff4500;
+}
+
+#lnk_3 {
+  color: white;
+  background-color: #ff4500;
+}
+
+.header_2 {
+    width: 100%;
+}
+
+.nav_2 {
+  width: 80%;
+  padding: 10px 0;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav_2_left img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.nav_2_right ul li  {
+  display: inline-block;
+  margin-top: 20px;
+  padding-right: 20px;
+}
+
+.nav_2_right ul li a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+.nav_2_left {
+  float: left;
+}
+
+.nav_2_right {
+  float: right;
+}
+
+.header_3 {
+  width: 100%;
+  height: 75vh;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.header_banner {
+  position: relative;
+  width: 80%;
+}
+
+.title {
+  position: absolute;
+  top: 5vh;
+  left: 0;
+  font-size: 60px;
+  width: 50%;
+}
+
+.header_banner p {
+  position: absolute;
+  top: 25vh;
+  left: 0;
+  font-weight: bold;
+  color: grey;
+  width: 40%;
+}
+
+.header_banner_btn a {
+  position: absolute;
+  top: 35vh;
+  left: 0;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ff4500;
+  border-radius: 5px;
+  background-color: #ff4500;
+  color: white;
+  padding: 20px 40px;
+}
+
+.header_banner span {
+  position: absolute;
+  top: 45vh;
+  left: 0;
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+}
