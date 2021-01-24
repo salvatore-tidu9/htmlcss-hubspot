@@ -10,9 +10,7 @@ body {
 
 header {
   position: relative;
-
 }
-
 
 .header_1 {
   position: fixed;
@@ -73,7 +71,7 @@ header {
   margin-left: 20px;
 }
 
-.nav_1_right ul li  {
+.nav_1_right ul li {
   display: inline-block;
   margin-top: 20px;
   padding-right: 20px;
@@ -125,7 +123,7 @@ header {
   margin-bottom: 20px;
 }
 
-.nav_2_right ul li  {
+.nav_2_right ul li {
   display: inline-block;
   margin-top: 20px;
   padding-right: 20px;
@@ -152,7 +150,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-
 }
 
 .header_banner {
@@ -207,43 +204,34 @@ header {
   border-bottom: 2px solid black;
   position: absolute;
   bottom: 0;
-
 }
 
-.container {
-  height: 100vh;
-  position: relative;
+.main_1 {
   background-color: lightgrey;
 }
 
-.container img {
+.img_container_section_1 {
+  position: relative;
+  height: 300px;
+}
+
+.img_container_section_1 img {
   width: 40%;
-  margin: auto;
   position: absolute;
-  top: 0%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-top: 10%;
   margin-left: 2%;
 }
 
-.container h1 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.title_container_section_1 h1 {
+  text-align: center;
   font-size: 40px;
-  margin-top: -3em;
 }
 
-.container p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-weight: bold;
-  width: 50%;
-  margin-top: -50px;
+.info_container_section_1 {
   text-align: center;
+  font-weight: bold;
   color: grey;
+  margin-top: 20px;
 }
