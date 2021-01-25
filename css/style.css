@@ -251,6 +251,7 @@ header {
 .card_button_container, .info_top_box {
   float: left;
 }
+
 .card_button_container {
   width: 25%;
 }
@@ -338,8 +339,6 @@ header {
 .center_box {
   margin-left: 76px;
   margin-right: 76px;
-
-
 }
 
 .left_card_container, .center_card_container, .right_card_container {
@@ -359,13 +358,13 @@ header {
   margin-top: 40px;
 }
 
- .center_box_title {
-   margin-top: 35px;
- }
+.center_box_title {
+  margin-top: 35px;
+}
 
- .right_box_title {
-   margin-top: 25px;
- }
+.right_box_title {
+  margin-top: 25px;
+}
 
 .left_box_info, .center_box_info, .right_box_info {
   text-align: center;
@@ -390,7 +389,6 @@ hr {
 #right_hr {
   margin-top: 50px;
 }
-
 
 .left_box_features h4, .center_box_features h4, .right_box_features h4 {
   text-align: center;
@@ -418,4 +416,57 @@ hr {
 .button a {
   text-decoration: none;
   color: white;
+}
+
+.main_2 {
+  background-color: red;
+}
+
+.main_2 {
+  background: linear-gradient(to right, #86c5da, #90eebf);
+}
+
+.main_2_container {
+  width: 80%;
+}
+
+.main_2_container_title, .main_2_container_info {
+  padding: 40px 0;
+  color: white;
+  text-align: center;
+}
+
+.main_2_container_title, .main_2_container_info {
+  font-size: 20px;
+}
+
+.main_2_container_table {
+  content: "";
+  display: table;
+  clear: both;
+  padding-bottom: 50px;
+}
+
+.box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7, .box_8 {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 50px 80px;
+  border: 1px solid white;
+  color: white;
+}
+
+.box_1, .box_2, .box_3, .box_4 {
+  border-top: none;
+  border-bottom: none;
+  border-left: none;
+}
+
+.box_5, .box_6, .box_7, .box_8 {
+  border-bottom: none;
+  border-left: none;
+}
+
+.box_4, .box_8 {
+  border-right: none;
 }
