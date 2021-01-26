@@ -418,8 +418,8 @@ hr {
   color: white;
 }
 
-.main_2 {
-  background-color: red;
+.top_box, .left_box, .center_box, .right_box {
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .main_2 {
@@ -436,6 +436,10 @@ hr {
   text-align: center;
 }
 
+.main_2_container_info {
+  margin-bottom: 60px;
+}
+
 .main_2_container_title, .main_2_container_info {
   font-size: 20px;
 }
@@ -444,7 +448,7 @@ hr {
   content: "";
   display: table;
   clear: both;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 .box_1, .box_2, .box_3, .box_4, .box_5, .box_6, .box_7, .box_8 {
@@ -469,4 +473,239 @@ hr {
 
 .box_4, .box_8 {
   border-right: none;
+}
+
+.main_3 {
+  padding-bottom: 60px;
+}
+
+.main_3_container {
+  position: relative;
+  width: 80%;
+  content: "";
+  display: table;
+  clear: both;
+  background-color: white;
+}
+
+.main_3_container_box_1 {
+  width: 30%;
+}
+
+.main_3_container_box_2 {
+  width: 70%;
+  padding-top: 30px;
+}
+
+.main_3_container_box_1, .main_3_container_box_2 {
+  float: left;
+}
+
+.main_3_container_box_1, .main_3_container_box_2 {
+  text-align: center;
+}
+
+.main_3_container_box_1_top h1 {
+  font-size: 60px;
+  padding-top: 60px;
+}
+
+.main_3_container_box_1_bottom p {
+  width: 40%;
+  padding-bottom: 60px;
+  margin-top: 30px;
+  font-weight: bold;
+  color: grey;
+}
+
+.main_3_container_box_1_bottom strong {
+  color: black;
+}
+
+.main_3_container_box_1_title_content h1, .main_3_container_box_1_title_description p {
+  text-align: left;
+}
+
+.main_3_container_box_1_title_content h1 {
+  padding-top: 60px;
+}
+
+.main_3_container_box_1_title_description p {
+  padding-top: 50px;
+  font-weight: bold;
+  color: grey;
+}
+
+.main_3_container_box_1 {
+  position: relative;
+}
+
+.main_3_button {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  padding: 20px 40px;
+  border: 1px solid #ff4500;
+  border-radius: 5px;
+  background-color: #ff4500;
+  margin-top: 50px;
+}
+
+.main_3_button a {
+  text-decoration: none;
+  color: white;
+}
+
+.main_3_container_box_2 div {
+  display: inline-block;
+}
+
+.brand_container {
+  height: 650px;
+  position: relative;
+}
+
+.brand {
+  width: 20%;
+  padding: 20px;
+}
+
+.brand img {
+  width: 100%;
+}
+
+#brand_6, #brand_8 {
+  position: relative;
+}
+
+#brand_6 img {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#brand_8 img {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.testimonial {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.testimonial img {
+  width: 50%;
+}
+
+footer {
+  background-color: #3d468b;
+}
+
+.footer_container_1 {
+  position: relative;
+  width: 80%;
+  height: 440px;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer_container_1 div {
+  width: 25%;
+  float: left;
+}
+
+.footer_container_1 h4 {
+  padding-top: 50px;
+  color: white;
+}
+
+.footer_container_1 ul {
+  margin-top: 50px;
+}
+
+.footer_container_1 ul li {
+  list-style: none;
+  font-weight: bold;
+  color: lightgrey;
+  padding-bottom: 20px;
+}
+
+.col_4 ul li:last-child {
+  margin-top: 30px;
+}
+
+.col_4 ul li a:last-child {
+  text-decoration: none;
+  color: grey;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+}
+
+.social_reference {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.social_reference a i {
+  color: white;
+  padding-right: 30px;
+}
+
+.footer_container_2 {
+  width: 80%;
+  padding-top: 60px;
+}
+
+.languages ul {
+  list-style: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.languages ul li {
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.languages ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: lightgrey;
+}
+
+.footer_container_3 {
+  width: 80%;
+  position: relative;
+  content: "";
+  display: table;
+  clear: both;
+  padding: 30px 0;
+}
+
+.footer_container_3_box_right {
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 30px;
+}
+
+.copyright {
+  font-weight: bold;
+  color: white;
+}
+
+.footer_container_3_box_right a {
+  padding-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
 }
